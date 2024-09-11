@@ -1,0 +1,123 @@
+interface ProjectData {
+    id: number;
+    name: string;
+    description: string;
+    logo: string;
+    tags: string[];
+    link: string;
+}
+  
+export const projects: ProjectData[] = [
+    {
+        id: 1,
+        name: "Github SNS",
+        description: "Github Message App",
+        logo: "../../public/github.png",
+        tags: ["Soon"],
+        link: "#"
+    },
+    {
+        id: 2,
+        name: "PLY",
+        description: "Video link-based playlist sharing platform",
+        logo: "../../public/ply.png",
+        tags: ["2024"],
+        link: "https://github.com/Dev-FE-1/Toy_Project_3_Team3"
+    },
+    {
+        id: 3,
+        name: "byul",
+        description: "It quickly and easily formats commit",
+        logo: "../../public/byul.png",
+        tags: ["Active", "2024"],
+        link: "https://www.npmjs.com/package/byul"
+    },
+    {
+        id: 4,
+        name: "byulhook",
+        description: "byulhook is a tool for managing Git hooks",
+        logo: "../../public/byul.png",
+        tags: ["Active", "2024"],
+        link: "https://www.npmjs.com/package/byulhook"
+    },
+    {
+        id: 5,
+        name: "byul alias",
+        description: "Simple git alias manager",
+        logo: "../../public/byul.png",
+        tags: ["Active", "2024"],
+        link: "https://www.npmjs.com/package/byul-alias"
+    },
+    {
+        id: 6,
+        name: "Aucom",
+        description: "Auto GitHub contribution graph.",
+        logo: "../../public/aucom.png",
+        tags: ["Discontinued", "2024"],
+        link: "https://github.com/love1ace/Auto-commit.com"
+    },
+    {
+        id: 7,
+        name: "woochee",
+        description: "Payroll and task management platform",
+        logo: "../../public/woochee.png",
+        tags: ["2024"],
+        link: "https://github.com/Dev-FE-1/woowahan-siblings"
+    },
+    {
+        id: 8,
+        name: "Clock App",
+        description: "Electron Clock App",
+        logo: "../../public/electron.png",
+        tags: ["2024"],
+        link: "https://github.com/love1ace/electron-clock"
+    },
+    {
+        id: 9,
+        name: "Portfolio",
+        description: "Vanila JS",
+        logo: "../../public/kim.png",
+        tags: ["Discontinued", "2024"],
+        link: "https://dongyeongkim.com/en/html/index.html"
+    },
+    {
+        id: 10,
+        name: "Intranet Login",
+        description: "Intranet login form design",
+        logo: "../../public/intranet.png",
+        tags: ["2024"],
+        link: "https://github.com/yourusername/another-project"
+    },
+    {
+        id: 11,
+        name: "Don't click",
+        description: "Don't Click This Button",
+        logo: "../../public/dont.png",
+        tags: ["2024"],
+        link: "https://love1ace.github.io/dont-click/src/index.html"
+    },
+    {
+        id: 12,
+        name: "random pepe",
+        description: "Random Pepe image npm package​",
+        logo: "../../public/pepe.png",
+        tags: ["Active", "2024"],
+        link: "https://www.npmjs.com/package/random-pepes"
+    },
+    {
+        id: 13,
+        name: "pepe game",
+        description: "Pepe chrome dino game",
+        logo: "../../public/pepe2.png",
+        tags: ["2024"],
+        link: "https://love1ace.github.io/pepe-world/projects/pepedinogame/dino.html"
+    },
+    {
+        id: 14,
+        name: "pepeGPT",
+        description: "Parody of CatGPT",
+        logo: "../../public/pepe3.png",
+        tags: ["2024"],
+        link: "https://love1ace.github.io/pepe-world/projects/pepegpt/index.html"
+    },
+  ];
