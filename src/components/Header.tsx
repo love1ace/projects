@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import '../styles/global.css'
+
 const Header = () => {
   return (
     <HeaderContainer>

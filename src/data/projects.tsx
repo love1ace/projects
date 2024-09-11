@@ -6,13 +6,13 @@ interface ProjectData {
     tags: string[];
     link: string;
 }
-  
+
 export const projects: ProjectData[] = [
     {
         id: 1,
-        name: "Github SNS",
+        name: "Project",
         description: "Github Message App",
-        logo: "../../public/github.png",
+        logo: "../../public/byul.png",
         tags: ["Soon"],
         link: "#"
     },

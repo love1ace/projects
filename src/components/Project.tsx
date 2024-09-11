@@ -37,10 +37,10 @@ const ProjectContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: left;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     cursor: pointer;
 
     &:hover {
-        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     }
 `;

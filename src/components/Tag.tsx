@@ -30,7 +30,7 @@ const TagContainer = styled.div<TagContainerProps>`
                 return '#F4F6FA';
         }
     }};
-    padding: 4px 8px;
+    padding: 2px 10px;
     font-size: 12px;
     font-weight: 500;
     margin: 0 0 0 10px;
