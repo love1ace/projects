@@ -10,17 +10,17 @@ interface ProjectData {
 export const projects: ProjectData[] = [
     {
         id: 1,
-        name: "Project",
-        description: "Github Message App",
-        logo: "../../public/byul.png",
-        tags: ["Soon"],
-        link: "#"
+        name: "KIM",
+        description: "Dongyeong Kim's Portfolio",
+        logo: "./byul.png",
+        tags: ["Active", "2024"],
+        link: "https://dongyeongkim.com/"
     },
     {
         id: 2,
         name: "PLY",
         description: "Video link-based playlist sharing platform",
-        logo: "../../public/ply.png",
+        logo: "./ply.png",
         tags: ["2024"],
         link: "https://github.com/Dev-FE-1/Toy_Project_3_Team3"
     },
@@ -28,7 +28,7 @@ export const projects: ProjectData[] = [
         id: 3,
         name: "byul",
         description: "It quickly and easily formats commit",
-        logo: "../../public/byul.png",
+        logo: "./byul.png",
         tags: ["Active", "2024"],
         link: "https://www.npmjs.com/package/byul"
     },
@@ -36,7 +36,7 @@ export const projects: ProjectData[] = [
         id: 4,
         name: "byulhook",
         description: "byulhook is a tool for managing Git hooks",
-        logo: "../../public/byul.png",
+        logo: "./byul.png",
         tags: ["Active", "2024"],
         link: "https://www.npmjs.com/package/byulhook"
     },
@@ -44,7 +44,7 @@ export const projects: ProjectData[] = [
         id: 5,
         name: "byul alias",
         description: "Simple git alias manager",
-        logo: "../../public/byul.png",
+        logo: "./byul.png",
         tags: ["Active", "2024"],
         link: "https://www.npmjs.com/package/byul-alias"
     },
@@ -52,7 +52,7 @@ export const projects: ProjectData[] = [
         id: 6,
         name: "Aucom",
         description: "Auto GitHub contribution graph.",
-        logo: "../../public/aucom.png",
+        logo: "./aucom.png",
         tags: ["Discontinued", "2024"],
         link: "https://github.com/love1ace/Auto-commit.com"
     },
@@ -60,7 +60,7 @@ export const projects: ProjectData[] = [
         id: 7,
         name: "woochee",
         description: "Payroll and task management platform",
-        logo: "../../public/woochee.png",
+        logo: "./woochee.png",
         tags: ["2024"],
         link: "https://github.com/Dev-FE-1/woowahan-siblings"
     },
@@ -68,7 +68,7 @@ export const projects: ProjectData[] = [
         id: 8,
         name: "Clock App",
         description: "Electron Clock App",
-        logo: "../../public/electron.png",
+        logo: "./electron.png",
         tags: ["2024"],
         link: "https://github.com/love1ace/electron-clock"
     },
@@ -76,7 +76,7 @@ export const projects: ProjectData[] = [
         id: 9,
         name: "Portfolio",
         description: "Vanila JS",
-        logo: "../../public/kim.png",
+        logo: "./kim.png",
         tags: ["Discontinued", "2024"],
         link: "https://dongyeongkim.com/en/html/index.html"
     },
@@ -84,7 +84,7 @@ export const projects: ProjectData[] = [
         id: 10,
         name: "Intranet Login",
         description: "Intranet login form design",
-        logo: "../../public/intranet.png",
+        logo: "./intranet.png",
         tags: ["2024"],
         link: "https://github.com/yourusername/another-project"
     },
@@ -92,7 +92,7 @@ export const projects: ProjectData[] = [
         id: 11,
         name: "Don't click",
         description: "Don't Click This Button",
-        logo: "../../public/dont.png",
+        logo: "./dont.png",
         tags: ["2024"],
         link: "https://love1ace.github.io/dont-click/src/index.html"
     },
@@ -100,7 +100,7 @@ export const projects: ProjectData[] = [
         id: 12,
         name: "random pepe",
         description: "Random Pepe image npm package​",
-        logo: "../../public/pepe.png",
+        logo: "./pepe.png",
         tags: ["Active", "2024"],
         link: "https://www.npmjs.com/package/random-pepes"
     },
@@ -108,7 +108,7 @@ export const projects: ProjectData[] = [
         id: 13,
         name: "pepe game",
         description: "Pepe chrome dino game",
-        logo: "../../public/pepe2.png",
+        logo: "./pepe2.png",
         tags: ["2024"],
         link: "https://love1ace.github.io/pepe-world/projects/pepedinogame/dino.html"
     },
@@ -116,7 +116,7 @@ export const projects: ProjectData[] = [
         id: 14,
         name: "pepeGPT",
         description: "Parody of CatGPT",
-        logo: "../../public/pepe3.png",
+        logo: "./pepe3.png",
         tags: ["2024"],
         link: "https://love1ace.github.io/pepe-world/projects/pepegpt/index.html"
     },

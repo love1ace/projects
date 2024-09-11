@@ -17,7 +17,6 @@ export default defineConfig({
           let html = readFileSync(htmlFile, 'utf-8')
           html = html.replace(/src="\/assets\//g, 'src="./assets/')
                      .replace(/href="\/assets\//g, 'href="./assets/')
-                     .replace(/href="byul.png"/g, 'href="./public/byul.png"')
           writeFileSync(htmlFile, html)
         }
       }
@@ -29,10 +28,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
-          if (assetInfo.name && (assetInfo.name.endsWith('.png') || assetInfo.name.endsWith('.jpg') || assetInfo.name.endsWith('.svg'))) {
-            return 'public/[name][extname]';
+          if (assetInfo.name && /\.(png|jpe?g|svg|gif)$/i.test(assetInfo.name)) {
+            return 'assets/images/[name]-[hash][extname]'
           }
-          return 'assets/[name]-[hash][extname]';
+          return 'assets/[name]-[hash][extname]'
         },
       },
     },
