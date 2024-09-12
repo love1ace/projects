@@ -104,20 +104,4 @@ export const projects: ProjectData[] = [
         tags: ["Active", "2024"],
         link: "https://www.npmjs.com/package/random-pepes"
     },
-    {
-        id: 13,
-        name: "pepe game",
-        description: "Pepe chrome dino game",
-        logo: "./pepe2.png",
-        tags: ["2024"],
-        link: "https://love1ace.github.io/pepe-world/projects/pepedinogame/dino.html"
-    },
-    {
-        id: 14,
-        name: "pepeGPT",
-        description: "Parody of CatGPT",
-        logo: "./pepe3.png",
-        tags: ["2024"],
-        link: "https://love1ace.github.io/pepe-world/projects/pepegpt/index.html"
-    },
   ];
