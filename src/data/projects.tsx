@@ -12,7 +12,7 @@ export const projects: ProjectData[] = [
         id: 1,
         name: "KIM",
         description: "Dongyeong Kim's Portfolio",
-        logo: "./favi.png",
+        logo: "./emoji.png",
         tags: ["Active", "2024"],
         link: "https://dongyeongkim.com/"
     },
