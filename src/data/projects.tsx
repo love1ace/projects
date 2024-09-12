@@ -86,7 +86,7 @@ export const projects: ProjectData[] = [
         description: "Intranet login form design",
         logo: "./intranet.png",
         tags: ["2024"],
-        link: "https://github.com/yourusername/another-project"
+        link: "https://love1ace.github.io/intranet-login"
     },
     {
         id: 11,
