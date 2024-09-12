@@ -12,7 +12,7 @@ export const projects: ProjectData[] = [
         id: 1,
         name: "KIM",
         description: "Dongyeong Kim's Portfolio",
-        logo: "./byul.png",
+        logo: "./favi.png",
         tags: ["Active", "2024"],
         link: "https://dongyeongkim.com/"
     },
@@ -78,7 +78,7 @@ export const projects: ProjectData[] = [
         description: "Vanila JS",
         logo: "./kim.png",
         tags: ["Discontinued", "2024"],
-        link: "https://dongyeongkim.com/en/html/index.html"
+        link: "https://love1ace.github.io/DONGYEONG-KIM/en/html/index.html"
     },
     {
         id: 10,
