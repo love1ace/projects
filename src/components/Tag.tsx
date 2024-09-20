@@ -26,6 +26,8 @@ const TagContainer = styled.div<TagContainerProps>`
                 return '#FFBDBD';
             case 'active':
                 return '#C5FFC1';
+            case 'npm package':
+                return '#FFE3A3';
             default:
                 return '#F4F6FA';
         }
