@@ -9,6 +9,22 @@ interface ProjectData {
 
 export const projects: ProjectData[] = [
     {
+        id: 14,
+        name: "tmkr",
+        description: "1 second to create github issue, PR",
+        logo: "./tmkr.png",
+        tags: ["npm package", "2024"],
+        link: "https://www.npmjs.com/package/tmkr"
+    },
+    {
+        id: 13,
+        name: "openai-memory",
+        description: "Remembers conversations with OpenAI.",
+        logo: "./openai.png",
+        tags: ["npm package", "2024"],
+        link: "https://www.npmjs.com/package/openai-memory"
+    },
+    {
         id: 12,
         name: "byul 2.0",
         description: "commit message generator by byul AI",
