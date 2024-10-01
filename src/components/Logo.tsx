@@ -2,6 +2,7 @@ import styled from '@emotion/styled'
 
 interface LogoProps {
   src: string;
+  alt: string;
 }
 
 const Logo: React.FC<LogoProps> = ({ src }) => {
