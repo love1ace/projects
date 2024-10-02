@@ -9,7 +9,7 @@ interface ProjectData {
 
 export const webProjects: ProjectData[] = [
     {
-        id: 6,
+        id: 8,
         name: "KIM",
         description: "Dongyeong Kim's Portfolio",
         logo: "./emoji.png",
@@ -17,7 +17,7 @@ export const webProjects: ProjectData[] = [
         link: "https://dongyeongkim.com/"
     },
     {
-        id: 5,
+        id: 7,
         name: "PLY",
         description: "Video link-based playlist sharing platform",
         logo: "./ply.png",
@@ -25,7 +25,7 @@ export const webProjects: ProjectData[] = [
         link: "https://github.com/Dev-FE-1/Toy_Project_3_Team3"
     },
     {
-        id: 4,
+        id: 6,
         name: "woochee",
         description: "Payroll and task management platform",
         logo: "./woochee.png",
@@ -33,7 +33,7 @@ export const webProjects: ProjectData[] = [
         link: "https://github.com/Dev-FE-1/woowahan-siblings"
     },
     {
-        id: 3,
+        id: 5,
         name: "Clock App",
         description: "Electron desktop clock app",
         logo: "./clock.png",
@@ -41,7 +41,7 @@ export const webProjects: ProjectData[] = [
         link: "https://github.com/love1ace/electron-clock"
     },
     {
-        id: 2,
+        id: 4,
         name: "Aucom",
         description: "Auto GitHub contribution graph.",
         logo: "./aucom.png",
@@ -49,7 +49,7 @@ export const webProjects: ProjectData[] = [
         link: "https://github.com/love1ace/Auto-commit.com"
     },
     {
-        id: 1,
+        id: 3,
         name: "Portfolio",
         description: "First portfolio site with Vanila JS",
         logo: "./kim.png",
@@ -57,7 +57,7 @@ export const webProjects: ProjectData[] = [
         link: "https://love1ace.github.io/DONGYEONG-KIM/en/html/index.html"
     },
     {
-        id: 1,
+        id: 2,
         name: "pepe game",
         description: "pepe chrome dinosaur game",
         logo: "./pepe.png",
@@ -72,4 +72,4 @@ export const webProjects: ProjectData[] = [
         tags: ["2024"],
         link: "https://love1ace.github.io/pepe-world/projects/dontclick/index.html"
     },
-  ];
+];

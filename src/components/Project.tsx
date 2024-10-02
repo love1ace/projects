@@ -63,7 +63,7 @@ export const Project: React.FC = () => {
             </Tabs>
             <ProjectsWrapper>
                 {displayedProjects.map(project => (
-                    <ProjectContainer key={project.id} onClick={() => window.open(project.link, '_blank')}>  
+                    <ProjectContainer key={project.id} onClick={() => window.open(project.link, '_blank')}>
                         <Logo src={project.logo} alt={`${project.name} logo`} />
                         <Title name={project.name} description={project.description} tags={project.tags} />
                         {project.tags.includes('Discontinued') && <DiscontinuedOverlay />}
