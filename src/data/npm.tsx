@@ -9,6 +9,22 @@ interface ProjectData {
 
 export const npmProjects: ProjectData[] = [
     {
+        id: 32,
+        name: "rhsh",
+        description: "random hash generator in cli",
+        logo: "./rhsh.png",
+        tags: ["npm package", "2024"],
+        link: "https://www.npmjs.com/package/rhsh"
+    },
+    {
+        id: 31,
+        name: "rnbr",
+        description: "random number generator in cli",
+        logo: "./rnbr.png",
+        tags: ["npm package", "2024"],
+        link: "https://www.npmjs.com/package/rnbr"
+    },
+    {
         id: 30,
         name: "tmkr",
         description: "1 second to create github issue, PR",
