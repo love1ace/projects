@@ -9,6 +9,22 @@ interface ProjectData {
 
 export const npmProjects: ProjectData[] = [
     {
+        id: 34,
+        name: "bsck",
+        description: "file name bs check tool",
+        logo: "./bsck.png",
+        tags: ["npm package", "2024"],
+        link: "https://www.npmjs.com/package/bsck"
+    },
+    {
+        id: 33,
+        name: "hangang",
+        description: "Congratulations on your Nobel Prize!",
+        logo: "./hangang.png",
+        tags: ["npm package", "2024"],
+        link: "https://www.npmjs.com/package/hangang"
+    },
+    {
         id: 32,
         name: "rhsh",
         description: "random hash generator in cli",
